@@ -1,0 +1,215 @@
+body {
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.navbar {
+  background-color: #3d4249;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item.active a {
+  color: #f3945a !important;
+  font-weight: 600;
+}
+
+.nav-link span {
+  color: #f3945a;
+  font-weight: 600;
+}
+
+.carousel {
+  height: 450;
+  background-color: #3d4249;
+  color: white;
+}
+
+.carousel h1 {
+  font-family: Lora;
+  font-weight: 700;
+}
+
+.carousel p {
+  font-family: Montserrat;
+  font-weight: 200;
+}
+
+.carousel-item .btn {
+  background-color: #ef803d;
+  font-size: small;
+}
+
+.features {
+  background-color: #dbdcde;
+}
+
+.features h3,
+.similar-product h3,
+.builder h3 {
+  font-family: "Lora";
+  font-weight: bold;
+}
+
+.figure h6 {
+  font-family: "Lora";
+  font-weight: bold;
+  color: black;
+}
+
+.figure h8 {
+  font-size: 14px;
+}
+
+.figure-img {
+  position: relative;
+}
+.figure-img a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.7s;
+}
+
+.figure-img:hover a {
+  opacity: 1;
+}
+
+footer {
+  background-color: #3d4249;
+}
+
+footer .navbar {
+  color: #dbdcde !important;
+}
+
+footer p {
+  color: #dbdcde;
+  font-size: 12px;
+}
+
+.breadcrumb {
+  background: transparent;
+  font-family: "Lora";
+  font-weight: 400;
+}
+
+.main-figure {
+  width: 350px;
+  height: 350px;
+}
+
+.figure-caption img {
+  width: 68px;
+  height: 68px;
+}
+
+.thumbnail-container {
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  padding: 8px;
+  margin: auto;
+  transform: translateY(-50px);
+}
+
+.button-minus img {
+  width: 38px;
+  height: 36px;
+}
+.button-act {
+  width: 216px;
+}
+
+.spesifikasi {
+  transform: translateX(-150px);
+}
+.builded-by img {
+  width: 50px;
+  height: 50px;
+}
+
+.btn-product {
+  margin: 20px 0;
+  border-bottom: 1px solid #eaeaef;
+  padding-bottom: 10px;
+}
+
+.btn-product .btn {
+  display: block;
+  margin: 5px 0;
+}
+
+.builded-by-img {
+  width: 50px;
+  height: 50px;
+  padding-top: 0;
+}
+
+.builder-identity span {
+  font-family: "Lora";
+  font-size: 14px;
+  font-weight: bold;
+  transform: translateX(-30px);
+}
+
+.builder-identity p {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.product-description {
+  background-color: #dbe3eb;
+  height: 400px;
+}
+
+.product-description .tab-content {
+  background-color: white;
+  border: 1px solid #d2d4d3;
+  border-top: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.16);
+}
+
+.product-description .tab-content p {
+  font-weight: 200;
+  line-height: 36px;
+  font-size: 16px;
+}
+
+.product-description img {
+  height: 40px;
+  width: 40px;
+}
+.product-description span {
+  font-family: "Lora";
+  font-weight: bold;
+  font-size: 16px;
+}
+.product-description p {
+  font-size: 12px !important;
+}
+
+.product-description .more-review a {
+  font-size: 12px;
+}
+
+.product-review {
+  height: 330px;
+  overflow: scroll;
+}
+
+.cart-header h4 {
+  font-family: "Lora";
+  font-weight: bold;
+}
+
+.checkout-detail {
+  background-color: #dfe6ee;
+  border: 0;
+}
